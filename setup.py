@@ -35,4 +35,5 @@ setup(
     platforms=['Linux'],
     test_suite='nose.collector',
     tests_require=['nose'],
+    use_2to3=True,
 )
